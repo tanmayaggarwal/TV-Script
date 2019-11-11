@@ -7,3 +7,5 @@ def checkpoint():
     trained_rnn = helper.load_model('./save/trained_rnn')
     return trained_rnn
     
+
+    
