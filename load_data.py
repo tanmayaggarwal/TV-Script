@@ -23,3 +23,4 @@ def load_data():
     print('\n'.join(text.split('\n')[view_line_range[0]:view_line_range[1]]))
 
     return data_dir, text
+
