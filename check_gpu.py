@@ -7,3 +7,5 @@ def check_gpu():
     if not train_on_gpu:
         print('No GPU found. Please use a GPU to train the neural network.')
     return train_on_gpu
+
+
