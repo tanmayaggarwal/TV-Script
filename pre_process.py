@@ -34,3 +34,4 @@ def token_lookup():
     token_dict['\n'] = '<NEW_LINE>'
 
     return token_dict
+
