@@ -39,3 +39,4 @@ def train_rnn(rnn, batch_size, optimizer, criterion, n_epochs, train_on_gpu, tra
 
     # returns a trained rnn
     return rnn
+
