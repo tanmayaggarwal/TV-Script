@@ -38,3 +38,4 @@ def forward_back_prop(rnn, optimizer, criterion, inp, target, hidden, train_on_g
     optimizer.step()
 
     return loss.item(), h
+
