@@ -227,3 +227,4 @@ def test_forward_back_prop(RNN, forward_back_prop, train_on_gpu):
     assert type(loss) == float, 'Wrong return type. Expected {}, got {}'.format(float, type(loss))
 
     _print_success_message()
+    
