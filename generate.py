@@ -68,3 +68,4 @@ def generate(rnn, prime_id, int_to_vocab, token_dict, pad_value, sequence_length
 
     # return all the sentences
     return gen_sentences
+
